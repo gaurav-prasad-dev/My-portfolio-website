@@ -2,7 +2,7 @@ import React from "react";
 import profile from "../assets/gaurav_img.png";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
-import resume from "../assets/GauravResume.pdf"
+import resume from "../assets/gaurav_updated_resume.pdf"
 function HomeSection() {
   return (
   <section
@@ -21,7 +21,7 @@ function HomeSection() {
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-gray-900">
             Hi, I’m <br />
             <span className="bg-gradient-to-r from-gray-900 to-gray-500 bg-clip-text text-transparent">
-              Gaurav Kumar
+              Gaurav Prasad
             </span>
           </h1>
 

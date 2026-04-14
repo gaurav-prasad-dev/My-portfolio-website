@@ -115,12 +115,9 @@ function ContactSection() {
         </motion.div>
 
       </div>
-
-      {/* FOOTER */}
-      <div className="absolute bottom-4 text-center w-full text-gray-500 text-sm">
-        © 2026 Gaurav Kumar. All Rights Reserved
-      </div>
+      
     </section>
+      
   );
 }
 
