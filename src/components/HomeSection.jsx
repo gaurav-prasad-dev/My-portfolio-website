@@ -2,7 +2,8 @@ import React from "react";
 import profile from "../assets/gaurav_img.png";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
-import Resume from "../assets/gauravResumeFinal.pdf";
+import resume from "../assets/gauravResumeFinal.pdf";
+
 function HomeSection() {
   return (
   <section
@@ -44,7 +45,7 @@ function HomeSection() {
           </p>
 
           <div className="flex justify-center md:justify-start gap-4">
-            <a href={Resume} download>
+            <a href={resume} download>
   <button className="px-6 py-3 bg-gray-900 text-white rounded-xl shadow-lg hover:scale-105 transition">
     Download Resume ⬇️
   </button>
