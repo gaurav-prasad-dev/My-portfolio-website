@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import resume from "../assets/GauravResume.pdf";
+import resume from "../assets/gauravResumeFinal.pdf";
 
 function Navbar() {
   const [active, setActive] = useState("home");
