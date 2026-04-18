@@ -2,7 +2,7 @@ import React from "react";
 import profile from "../assets/gaurav_img.png";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
-import resume from "../assets/gaurav_updated_resume.pdf"
+import resume from "../assets/gauravResumeFinal.pdf";
 function HomeSection() {
   return (
   <section
