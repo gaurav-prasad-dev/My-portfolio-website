@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap');
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,4 +9,78 @@
 
 section {
     scroll-margin-top: 70px;
+}
+/* ═══════════════════════════════════════════════
+   GAURAV PRASAD PORTFOLIO — GLOBAL STYLES
+   Add this to your index.css / App.css
+═══════════════════════════════════════════════ */
+
+
+/* ROOT VARIABLES */
+:root {
+  --color-bg: #050508;
+  --color-bg-2: #080810;
+  --color-accent: #00ffc8;
+  --color-accent-amber: #ff9f43;
+  --color-text: #ffffff;
+  --color-text-muted: rgba(255, 255, 255, 0.4);
+  --font-display: 'Syne', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+}
+
+/* RESET & BASE */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  scroll-behavior: smooth;
+  /* Custom scrollbar */
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 255, 200, 0.2) transparent;
+}
+
+html::-webkit-scrollbar { width: 4px; }
+html::-webkit-scrollbar-track { background: transparent; }
+html::-webkit-scrollbar-thumb {
+  background: rgba(0, 255, 200, 0.2);
+  border-radius: 2px;
+}
+html::-webkit-scrollbar-thumb:hover { background: rgba(0, 255, 200, 0.4); }
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* SELECTION */
+::selection {
+  background: rgba(0, 255, 200, 0.2);
+  color: #ffffff;
+}
+
+/* SMOOTH PAGE TRANSITIONS */
+section { transition: background 0.3s ease; }
+
+/* CUSTOM CURSOR (optional — works on desktop) */
+@media (pointer: fine) {
+  /* * { cursor: none !important; } */
+  .custom-cursor {
+    position: fixed; z-index: 99999;
+    width: 10px; height: 10px; border-radius: 50%;
+    background: #00ffc8; pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: width 0.2s, height 0.2s, opacity 0.2s;
+    mix-blend-mode: difference;
+  }
+  .custom-cursor-ring {
+    position: fixed; z-index: 99998;
+    width: 36px; height: 36px; border-radius: 50%;
+    border: 1px solid rgba(0, 255, 200, 0.35);
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: all 0.15s ease;
+  }
 }
