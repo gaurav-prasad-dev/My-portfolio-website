@@ -264,7 +264,7 @@ function HomeSection() {
             </p>
 
             <div className="home-btns">
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="mobile-resume">
+              <a href="/resume2.pdf" target="_blank" rel="noopener noreferrer" className="mobile-resume">
   Download Resume
 </a>
               <button className="btn-ghost" onClick={() => {
