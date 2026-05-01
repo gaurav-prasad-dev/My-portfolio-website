@@ -2,7 +2,6 @@
 
 
 import React, { useState, useEffect } from "react";
-import resume from "../../public/Gaurav_Claude_resume.pdf"
 
 function Navbar() {
   const [active, setActive] = useState("home");
@@ -163,7 +162,7 @@ function Navbar() {
             ))}
           </div>
 
-          <a href="/Gaurav_Claude_resume.pdf" target="_blank" rel="noopener noreferrer" className="mobile-resume">
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="mobile-resume">
   Resume ↗
 </a>
 

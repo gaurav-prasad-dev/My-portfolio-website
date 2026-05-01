@@ -2,7 +2,7 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
-import resume from "../../public/Gaurav_Claude_resume.pdf";
+
 import profile from "../assets/gaurav_img.png";
 
 function HomeSection() {
@@ -264,7 +264,7 @@ function HomeSection() {
             </p>
 
             <div className="home-btns">
-              <a href="/Gaurav_Claude_resume.pdf" target="_blank" rel="noopener noreferrer" className="mobile-resume">
+              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="mobile-resume">
   Download Resume
 </a>
               <button className="btn-ghost" onClick={() => {
