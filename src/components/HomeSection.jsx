@@ -264,7 +264,9 @@ function HomeSection() {
             </p>
 
             <div className="home-btns">
-              <a href={resume} download className="btn-primary">Download Resume ↓</a>
+              <a href="/Gaurav_Claude_resume.pdf" target="_blank" rel="noopener noreferrer" className="mobile-resume">
+  Download Resume
+</a>
               <button className="btn-ghost" onClick={() => {
                 const s = document.getElementById("contact");
                 s?.scrollIntoView({ behavior: "smooth" });
