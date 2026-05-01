@@ -2,7 +2,7 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
-import resume from "../assets/Gaurav_Resume.pdf";
+import resume from "../../public/Gaurav_Claude_resume.pdf";
 import profile from "../assets/gaurav_img.png";
 
 function HomeSection() {

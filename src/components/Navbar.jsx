@@ -2,7 +2,7 @@
 
 
 import React, { useState, useEffect } from "react";
-import resume from "../assets/Gaurav_Resume.pdf";
+import resume from "../../public/Gaurav_Claude_resume.pdf"
 
 function Navbar() {
   const [active, setActive] = useState("home");
