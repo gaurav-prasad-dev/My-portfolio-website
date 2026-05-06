@@ -162,9 +162,19 @@ function Navbar() {
             ))}
           </div>
 
-          <a href="/resume2.pdf" target="_blank" rel="noopener noreferrer" className="mobile-resume">
+          {/* <a href="/resume2.pdf" target="_blank" rel="noopener noreferrer" className="mobile-resume">
   Resume ↗
-</a>
+</a> */}//
+
+  {/* View Resume */}
+  <a
+    href="/resume.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="mobile-resume"
+  >
+    View Resume
+  </a>
 
           <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
             <span style={{ transform: menuOpen ? "rotate(45deg) translate(5px, 5px)" : "" }} />
